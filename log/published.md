@@ -1,0 +1,10 @@
+2026-11-18 | Why do your eyes shrink in sunshine | Inside Out | Why Do Your Eyes "Shrink" In Sunshine? | https://www.youtube.com/watch?v=39MQeoJCj8Q
+2026-11-18 | What happens if you skip sleep for 24 hours | Inside Out | What If You Skip Sleep For 24 Hours? #shorts | https://www.youtube.com/watch?v=_iDh4vsvzLc
+2026-11-18 | Why cold water on your face slows your heart (dive reflex) | Inside Out | Why Cold Water On Your Face Slows Your Heart #shorts | https://www.youtube.com/watch?v=5J611Pa68rg
+2026-11-19 | What happens if you hold your breath | Inside Out | What Happens If You Hold Your Breath? #shorts | https://www.youtube.com/watch?v=5Xejmkm2Fv8
+2026-11-20 | What happens in quicksand (how to escape) [brainrot] | Stick Story | What Happens In Quicksand? Bro, Don't Panic #shorts | https://www.youtube.com/watch?v=mE5RODDMn0A | https://www.instagram.com/reel/Df-HXcrNacC/ | https://www.facebook.com/reel/1125259650345488
+2026-11-21 | Tambora volcano invented the bicycle [brainrot] | Paper Atlas | A Volcano Invented The Bicycle, Bro #shorts | YT[slot 19:00 IST, uploaded 2026-11-22 01:10 IST] https://www.youtube.com/watch?v=CHFzKUfFuFE | https://www.instagram.com/reel/DgArfFpsN_j/ | https://www.facebook.com/reel/1191071813245184
+2026-11-22 | Why your stomach growls (borborygmi, migrating motor complex) [brainrot] | Inside Out | Why Does Your Stomach Growl? It's Not Just Hunger, Bro #shorts | pending (2026-11-22-stomach-growl) | https://www.instagram.com/reel/DgDQ5DeOeL_/ | https://www.facebook.com/reel/1408391694425236
+
+2026-11-23 | What to do if your car sinks in water (SWOC escape) [brainrot] | Stick Story | What To Do If Your Car Sinks In Water, Bro #shorts | pending (2026-11-23-car-sinks) | https://www.instagram.com/reel/DgF2gZRhCNQ/ | https://www.facebook.com/reel/29368498056136488
+2026-11-24 | The Great Molasses Flood (cloud test) [brainrot] | Paper Atlas | A Tank Of Molasses Flooded Boston, Bro #shorts | https://www.youtube.com/watch?v=k29TqSj5Kg8 | IG media 18136112734762351 | https://www.facebook.com/reel/29548703541480528
