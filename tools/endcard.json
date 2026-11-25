@@ -1,6 +1,6 @@
 {
  "_note": "Positions are for a 1080x1920 frame. heart = centre of the little heart; tune after checking each app's player. like_y is only documentation of where each app's like button sits.",
- "seconds": 2.4,
+ "seconds": 2.0,
  "youtube":   {"heart": [972, 1215], "pill_y": 640},
  "instagram": {"heart": [978, 1295], "pill_y": 640},
  "facebook":  {"heart": [972, 1175], "pill_y": 640}

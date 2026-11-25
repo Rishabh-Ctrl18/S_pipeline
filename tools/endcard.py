@@ -8,7 +8,7 @@ src, outdir, base = sys.argv[1:4]
 cfg = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'endcard.json')))
 W, H = 1080, 1920
 dur = float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',src]).decode().strip())
-secs = cfg['seconds']; t0 = max(0.5, dur - secs)
+secs = cfg['seconds']; t0 = dur  # card + spoken line live in an extra tail after the video
 fonts = ['/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf','/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf']
 font_path = next(f for f in fonts if os.path.exists(f))
 
@@ -48,8 +48,12 @@ for p, tag in tags.items():
     png = os.path.join('/tmp', f'endcard_{tag}.png'); card(p).save(png)
     out = os.path.join(outdir, f'{base}-{tag}.mp4')
     # fade the card in over 0.35 s starting at t0; heart pulses by fading the whole card alpha gently is unnecessary
-    fc = f"[1:v]format=rgba,fade=t=in:st={t0:.2f}:d=0.35:alpha=1[c];[0:v][c]overlay=0:0:enable='gte(t,{t0:.2f})'[v]"
-    subprocess.check_call(['ffmpeg','-loglevel','error','-y','-i',src,'-loop','1','-i',png,'-filter_complex',fc,
-        '-map','[v]','-map','0:a','-c:v','libx264','-preset','veryfast','-crf','24','-pix_fmt','yuv420p','-c:a','copy',
-        '-movflags','+faststart','-shortest',out])
+    wav = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'follow.wav')
+    ms = int((t0 + 0.25) * 1000)
+    fc = (f"[0:v]tpad=stop_mode=clone:stop_duration={secs}[b];"
+          f"[1:v]format=rgba,fade=t=in:st={t0:.2f}:d=0.35:alpha=1[c];[b][c]overlay=0:0:enable='gte(t,{t0:.2f})'[v];"
+          f"[0:a]apad=pad_dur={secs}[a0];[2:a]adelay={ms}|{ms},volume=1.2[a1];[a0][a1]amix=inputs=2:duration=first:normalize=0[a]")
+    subprocess.check_call(['ffmpeg','-loglevel','error','-y','-i',src,'-loop','1','-i',png,'-i',wav,'-filter_complex',fc,
+        '-map','[v]','-map','[a]','-t',f'{dur+secs:.2f}','-c:v','libx264','-preset','veryfast','-crf','24','-pix_fmt','yuv420p','-c:a','aac','-b:a','160k',
+        '-movflags','+faststart',out])
     print(out, os.path.getsize(out))
