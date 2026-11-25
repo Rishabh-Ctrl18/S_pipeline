@@ -9,3 +9,4 @@
 2026-11-23 | What to do if your car sinks in water (SWOC escape) [brainrot] | Stick Story | What To Do If Your Car Sinks In Water, Bro #shorts | YT[skipped: user chose not to upload] | https://www.instagram.com/reel/DgF2gZRhCNQ/ | https://www.facebook.com/reel/29368498056136488
 2026-11-24 | The Great Molasses Flood (cloud test) [brainrot] | Paper Atlas | A Tank Of Molasses Flooded Boston, Bro #shorts | https://www.youtube.com/watch?v=k29TqSj5Kg8 | IG media 18136112734762351 | https://www.facebook.com/reel/29548703541480528
 2026-11-24 | Why you get goosebumps (arrector pili, hair stem cells) [brainrot] | Inside Out | Why You Get Goosebumps, Bro #shorts | YT[skipped: user chose not to upload] | https://www.instagram.com/reel/DgIbKVbhLXR/ | https://www.facebook.com/reel/1855417375588190
+2026-11-25 | How far away is lightning (flash-to-bang counting) [plain] | Stick Story | How Far Away Is That Lightning? #shorts | yt-pending | ig-pending | fb-pending
