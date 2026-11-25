@@ -10,3 +10,4 @@
 2026-11-24 | The Great Molasses Flood (cloud test) [brainrot] | Paper Atlas | A Tank Of Molasses Flooded Boston, Bro #shorts | https://www.youtube.com/watch?v=k29TqSj5Kg8 | IG media 18136112734762351 | https://www.facebook.com/reel/29548703541480528
 2026-11-24 | Why you get goosebumps (arrector pili, hair stem cells) [brainrot] | Inside Out | Why You Get Goosebumps, Bro #shorts | YT[skipped: user chose not to upload] | https://www.instagram.com/reel/DgIbKVbhLXR/ | https://www.facebook.com/reel/1855417375588190
 2026-11-25 | How far away is lightning (flash-to-bang counting) [plain] | Stick Story | How Far Away Is That Lightning? #shorts | YT[manual upload by user] https://www.youtube.com/watch?v=b05-S5_cHs8 | https://www.instagram.com/reel/DgJ-fyKxigP/ | https://www.facebook.com/reel/1693598585886849
+2026-11-25 | The Great Emu War (1932) [brainrot] | Paper Atlas | The Time Australia Lost a War to Emus #shorts | yt-pending | ig-pending | fb-pending
