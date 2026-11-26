@@ -12,3 +12,4 @@
 2026-11-25 | How far away is lightning (flash-to-bang counting) [plain] | Stick Story | How Far Away Is That Lightning? #shorts | YT[manual upload by user] https://www.youtube.com/watch?v=b05-S5_cHs8 | https://www.instagram.com/reel/DgJ-fyKxigP/ | https://www.facebook.com/reel/1693598585886849
 2026-11-25 | The Great Emu War (1932) [brainrot] | Paper Atlas | The Time Australia Lost a War to Emus #shorts | https://www.youtube.com/watch?v=vNHBrAQplME | https://www.instagram.com/reel/DgKnAantq4X/ | https://www.facebook.com/reel/3684049011760780
 2026-11-26 | Why you can't tickle yourself (cerebellum prediction) [plain] | Inside Out | Why Can't You Tickle Yourself? #shorts | failed | https://www.instagram.com/reel/DgMjc53oAAd/ | https://www.facebook.com/reel/1139223932361125
+2026-11-26 | What happens if an elevator cable snaps (governor brakes, Otis 1854) [brainrot] | Stick Story | What Happens If An Elevator Cable Snaps? #shorts | yt-pending | ig-pending | fb-pending
