@@ -6,7 +6,8 @@ import sys, json, math, os, subprocess
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 src, outdir, base = sys.argv[1:4]
 cfg = json.load(open(os.path.join(os.path.dirname(os.path.abspath(__file__)), 'endcard.json')))
-W, H = 1080, 1920
+dims = subprocess.check_output(['ffprobe','-v','error','-select_streams','v:0','-show_entries','stream=width,height','-of','csv=p=0',src]).decode().strip().split(',')
+W, H = int(dims[0]), int(dims[1]); WIDE = W > H
 dur = float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',src]).decode().strip())
 secs = cfg['seconds']; t0 = dur  # card + spoken line live in an extra tail after the video
 fonts = ['/usr/share/fonts/truetype/google-fonts/Poppins-Bold.ttf','/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf']
@@ -23,6 +24,7 @@ def heart(d, cx, cy, s, fill):
 
 def card(platform):
     hx, hy = cfg[platform]['heart']; py = cfg[platform]['pill_y']
+    if WIDE: py = 330
     im = Image.new('RGBA', (W, H), (0,0,0,0))
     # pill
     f = ImageFont.truetype(font_path, 78)
@@ -36,6 +38,7 @@ def card(platform):
     d.rounded_rectangle([x0, py, x0+pw, py+ph], radius=75, fill=(255,210,63,255))
     d.text((x0+70, py+ph//2), text, font=f, fill=(22,24,74,255), anchor='lm')
     heart(d, x0+pw-75, py+ph//2+2, 2.3, (230,57,70,255))
+    if WIDE: return im
     # little heart under the like button
     sh2 = Image.new('RGBA', (W, H), (0,0,0,0)); heart(ImageDraw.Draw(sh2), hx, hy+4, 3.0, (0,0,0,120))
     im.alpha_composite(sh2.filter(ImageFilter.GaussianBlur(4)))
